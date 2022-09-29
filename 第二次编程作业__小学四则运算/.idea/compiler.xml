@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="papercheck" />
-        <module name="论文查重" />
+        <module name="第二次编程作业__小学四则运算" />
       </profile>
     </annotationProcessing>
   </component>
