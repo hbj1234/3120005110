@@ -103,7 +103,7 @@ public class Judge
                 System.out.println("是否结束程序: YES or NO");
                 scan = new Scanner(System.in);
                 String expect = scan.nextLine();
-                if (expect.equals("YES"))
+                if (expect.equals("YES")||expect.equals("yes"))
                 {
                     break;
                 }
@@ -119,7 +119,7 @@ public class Judge
                 System.out.println("是否结束程序: YES or NO");
                 scan = new Scanner(System.in);
                 String exit = scan.nextLine();
-                if (exit.equals("YES")) {
+                if (exit.equals("YES")||exit.equals("yes")) {
                     break;
                 }
             }
