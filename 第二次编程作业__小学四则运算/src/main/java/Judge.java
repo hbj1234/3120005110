@@ -71,7 +71,7 @@ public class Judge
 
                                     /*字符串que_result存放题目，ans_result存放答案*/
                                     String que = NB.buildExpression(range, opernum);
-                                    String que_result = (i+1)+"、"+" " + que +"\n";
+                                    String que_result = (i+1)+"、" + que +"\n";
                                     String ans_result=Get_answer.answerget(que,i);
 
                                     print = que_result.getBytes();
@@ -111,7 +111,11 @@ public class Judge
 
             else if (command.equals("2"))
             {
-                new CorrectandWrong();
+                try {
+                    new CorrectandWrong();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 System.out.println("是否结束程序: YES or NO");
                 scan = new Scanner(System.in);
                 String exit = scan.nextLine();
